@@ -57,6 +57,7 @@ local plugins = {
         "clang-format",
         "codelldb",
         "rust-analyzer",
+        "jedi-language-server",
       }
     }
   }
