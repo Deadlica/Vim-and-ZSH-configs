@@ -10,6 +10,20 @@ M.dap = {
     ["<leader>dr"] = {
       "<cmd> DapContinue <CR>",
       "Start or continue the debugger",
+    },
+    ["<S-Tab>"] = {
+      " <<"
+    }
+  },
+  i = {
+    ["<C-h>"] = {
+      "<C-o>db"
+    },
+    ["<C-Del>"] = {
+      "<C-o>dw"
+    },
+    ["<S-Tab>"] = {
+      "<C-d>"
     }
   }
 }
