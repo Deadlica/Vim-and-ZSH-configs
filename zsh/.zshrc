@@ -1,8 +1,9 @@
 # Macros
 alias vim="nvim"
-alias ll="ls -l"
-alias la="ls -a"
-alias lal="ls -al"
+alias ls="ls --color=auto"
+alias ll="ls -l --color=auto"
+alias la="ls -a --color=auto"
+alias lal="ls -al --color=auto"
 alias kth-ssh="/home/samuel/documents/kth/.kth-ssh.sh"
 alias kth-sftp="/home/samuel/documents/kth/.kth-sftp.sh"
 alias cdkth="cd /mnt/c/Users/samue/OneDrive\ -\ KTH/Year\ 4"
