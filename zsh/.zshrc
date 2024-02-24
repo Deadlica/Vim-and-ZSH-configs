@@ -7,8 +7,6 @@ alias lal="ls -al --color=auto"
 alias os="neofetch"
 alias kth-ssh="/home/samuel/documents/kth/.kth-ssh.sh"
 alias kth-sftp="/home/samuel/documents/kth/.kth-sftp.sh"
-alias cdkth="cd /mnt/c/Users/samue/OneDrive\ -\ KTH/Year\ 4"
-alias cdclion="cd /mnt/c/Users/samue/CLionProjects/"
 
 # Default Editor
 export EDITOR=/usr/bin/nvim
@@ -26,4 +24,4 @@ bindkey "^[^?"    backward-kill-word  # Alt + <backspace>
 bindkey "^[[3;5~" kill-word           # Ctrl + DEL
 bindkey "^[[1;5D" backward-word       # Ctrl + Left
 bindkey "^[[1;5C" forward-word        # Ctrl + Right
-bindkey "^[[3~"   delete-char         # Del
+bindkey "^[[2~"   delete-char         # Del

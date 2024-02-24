@@ -75,6 +75,13 @@ local plugins = {
         "debugpy",
       }
     }
+  },
+  {
+    "okuuva/auto-save.nvim",
+    event = { "InsertLeave" },
+    opts = {
+
+    }
   }
 }
 return plugins
