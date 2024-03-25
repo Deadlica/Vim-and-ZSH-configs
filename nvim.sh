@@ -12,6 +12,7 @@ main() {
   elif [ $# -eq 2 ]; then
     if [ "$1" == "push" ]; then
       cp -rf ~/.config/nvim ./
+      sed -i '/^custom$/d' ./nvim/.gitignore
       rm -rf ./nvim/.git/ ./nvim/.github/
       git add nvim nvim.sh
       git commit -m "$2"
