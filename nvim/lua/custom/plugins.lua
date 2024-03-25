@@ -2,7 +2,7 @@ local plugins = {
   {
     "rcarriga/nvim-dap-ui",
     event = "VeryLazy",
-    dependencies = "mfussenegger/nvim-dap",
+    dependencies = {"mfussenegger/nvim-dap", "nvim-neotest/nvim-nio"},
     config = function()
       local dap = require("dap")
       local dapui = require("dapui")
@@ -73,6 +73,7 @@ local plugins = {
         "mypy",
         "ruff",
         "debugpy",
+        "semgrep",
       }
     }
   },
