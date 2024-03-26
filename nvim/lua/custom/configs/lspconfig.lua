@@ -24,11 +24,3 @@ lspconfig.jedi_language_server.setup({
   capabilities = capabilities,
   filetypes = {"python"},
 })
-
-lspconfig.metals.setup({
-  on_attach = function(client, bufnr)
-    client.server_capabilities.signatureHelpProvider = false
-    on_attach(client, bufnr)
-  end,
-  capabilities = capabilities,
-})
